@@ -1,4 +1,4 @@
 ### Copy to Google Cloud Shell ####
 
-gcloud functions deploy get-my-event --region asia-southeast2 --entry-point Service --runtime go113 --trigger-http
+gcloud functions deploy get-my-event --region asia-southeast2 --entry-point Service --runtime go113 --trigger-http --allow-unauthenticated
 
