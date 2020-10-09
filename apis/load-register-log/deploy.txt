@@ -1,4 +1,4 @@
 ### Copy to Google Cloud Shell ####
 
-gcloud functions deploy save-register-log --region asia-southeast2 --entry-point Service --runtime go113 --trigger-http --allow-unauthenticated
+gcloud functions deploy load-register-log --region asia-southeast2 --entry-point Service --runtime go113 --trigger-http --allow-unauthenticated
 
